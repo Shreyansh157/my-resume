@@ -1,0 +1,113 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+\ifxetexorluatex
+  \setmainfont{Carlito}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{SHREYANSH SINGH}
+\tagline{}
+\personalinfo{%
+  % Format to add more: \printinfo{symbol}{detail}
+  \email{shreyansh.singh.157@gmail.com}
+  \phone{+91 6393764717}
+  \location{Jhansi, Uttar Pradesh - India}
+ % \homepage{website link}
+  % \linkedin{linkedin profile link}
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\AtBeginEnvironment{itemize}{\small}
+
+\cvsection[page1sidebar]{About Me}
+\begin{itemize}
+\item Dual postgraduate in MCA and MBA (Finance Management), combining technical and business expertise
+\smallskip
+\item Hands-on experience as a Frontend Developer Intern, skilled in WordPress, Shopify, and modern web technologies
+\smallskip
+\item Passionate about web development, AI/ML, and emerging technologies, with a focus on continuous learning and innovation.
+ \end{itemize}
+\smallskip
+
+\cvsection{Experience}
+
+\cvevent{Front End Developer (Intern)}{Graduo Pvt. Ltd.}{Aug 2023 -- Jan 2024}{Remote (Noida, Uttar Pradesh)}
+\begin{itemize}
+\item Built responsive front-end interfaces with modern web technologies.
+\smallskip
+\item Customized WordPress and Shopify themes and enhanced UI/UX with Figma.
+\smallskip
+\item Optimized site performance and SEO, ensuring faster load times and better visibility. 
+\smallskip
+\item Collaborated with clients and team members to deliver solutions aligned with business goals.
+\end{itemize}
+\smallskip
+
+% \divider
+
+\cvsection{TECHNICAL SKILLS}
+\smallskip
+\begin{itemize}
+\item \textbf{Programming Languages: }Python, JavaScript, C, C+
+\smallskip
+\item \textbf{Web Development: }React.js, Node.js, Express.js, HTML5, CSS3, JS, Bootstrap, Tailwind
+\smallskip
+\item \textbf{Databases: }MySQL, PostgreSQL, MongoDB
+\smallskip
+\item  \textbf{Tools \& Platforms:} Git, GitHub, WordPress, Shopify, Figma 
+\smallskip
+\item \textbf{Databases: }MySQL, PostgreSQL, MongoDB
+\smallskip
+\item \textbf{Other Skills:} REST APIs, DSA (Basic), Financial Analysis \& Management 
+\smallskip
+
+
+\end{itemize}
+\cvsection{SOFT SKILLS}
+\smallskip
+\begin{itemize}
+\item Strong communication and collaboration skills.
+\smallskip
+\item Problem-solving and analytical thinking.
+\smallskip
+\item Adaptability and quick learning.
+\smallskip
+\item Time management and organizational ability.
+\smallskip
+\item Attention to detail and creativity.
+\smallskip
+\end{itemize}
+
+\cvsection{Hobbies}
+\smallskip
+\begin{itemize}
+\item Playing strategy games \& solving puzzles.
+\smallskip
+\item Listening to Music.
+\smallskip
+\item Traveling \& Exploring Cultures
+\end{itemize}
+
+\clearpage
+
+
+
+
+\end{document}
